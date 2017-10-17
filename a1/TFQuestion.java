@@ -32,9 +32,9 @@ public class TFQuestion implements Question {
 	}
 
 	@Override
-	public String getOptions() {
-		
-		return options;
+	public String[] getOptions() {
+		String[] choices = options.split("\\s+");
+		return choices;
 
 	}
 

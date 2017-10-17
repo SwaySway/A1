@@ -2,14 +2,17 @@ package a1;
 
 //university student
 public class UniStudent implements Student {
+	String ID;
+	String answer;
 	
-	public UniStudent(String ID, String[] answer) {
-		setID(ID);
-		setSubmission(answer);
+	public UniStudent(String ID, String answer) {
+		this.setID(ID);
+		this.setSubmission(answer);
 	}
 
 	@Override
 	public void setID(String ID) {
+		this.ID = ID;
 		// TODO Auto-generated method stub
 		
 	}
@@ -17,19 +20,19 @@ public class UniStudent implements Student {
 	@Override
 	public String getID() {
 		// TODO Auto-generated method stub
-		return null;
+		return ID;
 	}
 
 	@Override
-	public void setSubmission(String[] answers) {
+	public void setSubmission(String answer) {
+		this.answer = answer;
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public String[] getSubmissions() {
-		// TODO Auto-generated method stub
-		return null;
+	public String getSubmission() {
+		return answer;
 	}
 
 }

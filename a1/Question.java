@@ -8,11 +8,10 @@ public interface Question {
 	
 	public void setOptions(String options);
 	
-	public String getOptions();
+	public String[] getOptions();
 	
 	public void setAnswer(String answer);
 	
 	public String getAnswer();
-	
 
 }

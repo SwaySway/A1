@@ -8,9 +8,9 @@ public interface Student {
 	public String getID();
 	
 	//there set of answers for questions
-	public void setSubmission(String[] answers);
+	public void setSubmission(String answers);
 	
 	
-	public String[] getSubmissions();
+	public String getSubmission();
 	
 }
