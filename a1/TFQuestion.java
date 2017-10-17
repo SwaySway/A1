@@ -1,5 +1,9 @@
 package a1;
-
+/**
+ * @author Josue Ruiz
+ * Version 1.0
+ * 
+ */
 public class TFQuestion implements Question {
 	protected String question;
 	protected String  options;

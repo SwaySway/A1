@@ -1,4 +1,10 @@
 package a1;
+/**
+ * @author Josue Ruiz
+ * Version 1.0
+ * 
+ */
+
 
 public class MultiChoiceQuestion implements Question {
 	protected String question;

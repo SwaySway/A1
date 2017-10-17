@@ -4,7 +4,7 @@ package a1;
 public class UniStudent implements Student {
 	String ID;
 	String answer;
-	
+	//university student adds ID
 	public UniStudent(String ID, String answer) {
 		this.setID(ID);
 		this.setSubmission(answer);
